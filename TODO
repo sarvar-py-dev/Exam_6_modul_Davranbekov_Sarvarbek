@@ -1,6 +1,1 @@
-
-beat:
-	celery -A root beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
-
-celery:
-	celery -A root worker -l INFO
+ustoz kup narsaga ulgura olmadim vaqtim ni kupi html code qidirish bilan utdi
