@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head itemscope itemtype="http://schema.org/WebSite">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title itemprop="name">Preview bootstrap html snippet. Product view</title>
+    <meta name="description" itemprop="description"
+          content="Preview bootstrap html snippet. Product view. Copy and paste the html, css and js code for save time, build your app faster and responsive">
+    <meta name="keywords"
+          content="html, css, javascript, themes, templates, code snippets, ui examples, react js, react-native, plagraounds, cards, front-end, profile, invoice, back-end, web-designers, web-developers">
+    <link itemprop="sameAs" href="https://www.facebook.com/bootdey">
+    <link itemprop="sameAs" href="https://x.com/bootdey">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/bootdey_favicon.ico">
+    <link rel="apple-touch-icon" sizes="135x140" href="/img/bootdey_135x140.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/bootdey_76x76.png">
+    <link rel="canonical" href="https://bootdey.com/snippets/view/Product-view" itemprop="url">
+    <meta property="x:account_id" content="2433978487"/>
+    <meta name="x:card" content="summary">
+    <meta name="x:card" content="summary_large_image">
+    <meta name="x:site" content="@bootdey">
+    <meta name="x:creator" content="@bootdey">
+    <meta name="x:title" content="Preview bootstrap html snippet. Product view">
+    <meta name="x:description"
+          content="Preview bootstrap html snippet. Product view. Copy and paste the html, css and js code for save time, build your app faster and responsive">
+    <meta name="x:image" content="https://bootdey.com/files/SnippetsImages/bootstrap-snippets-339.png">
+    <meta name="x:url" content="https://bootdey.com/snippets/preview/Product-view">
+    <meta property="og:title" content="Preview bootstrap html snippet. Product view">
+    <meta property="og:url" content="https://bootdey.com/snippets/preview/Product-view">
+    <meta property="og:image" content="https://bootdey.com/files/SnippetsImages/bootstrap-snippets-339.png">
+    <meta property="og:description"
+          content="Preview bootstrap html snippet. Product view. Copy and paste the html, css and js code for save time, build your app faster and responsive">
+    <meta name="msvalidate.01" content="23285BE3183727A550D31CAE95A790AB"/>
+    <script src="/cache-js/cache-1635427806-97135bbb13d92c11d6b2a92f6a36685a.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="snippetContent">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <div class="container bootstrap snippets bootdey">
+        <div class="row">
+            <div class="col-sm-6 push-bit"><a href="#" class="gallery-link">
+                <video
+                        class="img-responsive push-bit" controls>
+                    <source src="{{ product_detail.video.url }}" type="video/mp4">
+
+                </video>
+            </a>
+                <div class="row push-bit">
+                    {% for image in product_detail.images.all %}
+                        <div class="col-xs-4"><a href="#" class="gallery-link"><img width="400" height="200"
+                                                                                    src="{{ image.image.url }}" alt
+                                                                                    class="img-responsive"/></a>
+                        </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+            <div class="col-sm-6 push-bit">
+                <div class="clearfix">
+                    <span class="h4"> <strong class="text-success">{{ product_detail.name }}</strong><br/></span>
+                </div>
+                <hr/>
+                <p> {{ product_detail.description }}</p>
+                <hr/>
+            </div>
+        </div>
+    </div>
+    <style type="text/css">body {
+        margin-top: 20px;
+    }
+
+    .push-bit {
+        margin-bottom: 30px;
+    }</style>
+    <script type="text/javascript"></script>
+</div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F1RTS0P1CD"></script>
+<script>window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+
+gtag('config', 'G-F1RTS0P1CD');</script>
+</body>
+</html>
