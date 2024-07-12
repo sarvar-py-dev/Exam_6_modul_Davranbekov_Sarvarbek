@@ -6,6 +6,6 @@ from root import settings
 
 @shared_task
 def send_to_email(msg: str, email: str):
-    subject = 'Tema'
+    subject = 'Whelcome to our site'
     send_mail(subject, msg, settings.EMAIL_HOST_USER, [email])
-    return {'Result': True, 'email': email}
+    return {'res': True, 'email': email}
